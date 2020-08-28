@@ -1,0 +1,3 @@
+ Firstname,Email,Is_active,Role_user,Phone,Address
+"demo","demo1@demo1.com","No","customer","9874563210","indore"
+"demo1","demo1@demo.com","Yes","user","",""
