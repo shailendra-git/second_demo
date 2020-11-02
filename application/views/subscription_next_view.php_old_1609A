@@ -1,0 +1,111 @@
+
+<style type="text/css">
+  .modal-dialog{max-width: 600px !important;}
+  
+</style>
+
+<div class="contnet-area">
+	<div class="container">
+      <div class="row bg">
+         <div class="col-md-12 ">
+          Your trial has ended (certain functionalities have been disabled). Please subscribe now.
+
+         </div>
+         <div class="col-md-12">
+          <button style="min-width: 160px;
+                  background: blue;
+                   color: #fff;" class="btn btn-primary" data-toggle="modal" data-target="#subscribedModal">Subscribe</button></div>
+       </div>
+       </div>
+       </div>
+
+<!-- Modal -->
+<div id="subscribedModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">New Subscription
+</h4>
+      </div>
+      <div class="modal-body">
+      
+      <div class="section">
+
+      <div class="row">
+        <div class="col s12">
+          <table id="ember1324" class="bordered hl-stripe-subscription-preview ember-view"><thead>
+  <tr>
+    <th>
+      Pricing Plan Preview
+    </th>
+    <th class="right-align">
+      Qty
+    </th>
+    <th class="right-align">
+      Total
+    </th>
+  </tr>
+</thead>
+<tbody>
+    
+    <tr>
+      <td>
+        Basic Package <br>
+        $<?php echo $plan_details['unit_price']?> / Unit / Month
+      </td>
+      <td class="right-align">
+        <?php echo ($units['units_purchased']);?>
+      </td>
+      <td class="right-align">
+          $<?php echo ($plan_details['unit_price']*$units['units_purchased']);?> / Month
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Platform Fee <br>
+        $<?php echo $plan_details['base_price'];?> / Account / Month
+      </td>
+      <td class="right-align">
+        1
+      </td>
+      <td class="right-align">
+          $<?php echo $plan_details['base_price'];?> / Month
+      </td>
+    </tr>
+</tbody>
+<tfoot>
+  <tr>
+    <th colspan="2" class="right-align">
+      Estimated Total
+<!---->    </th>
+    <th class="right-align">
+        $<?php echo ($plan_details['unit_price']*$units['units_purchased'])+$plan_details['base_price'];?> / Month
+    </th>
+  </tr>
+</tfoot></table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6">
+            <p>
+              <button style="min-width: 160px;
+                  background: blue;
+                   color: #fff;" class="btn btn-primary">Add Payment Method2222</button>
+            </p>
+        </div>
+     </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    
+        

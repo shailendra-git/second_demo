@@ -1,0 +1,55 @@
+<style type="text/css">
+  label {
+    line-height: 4 !important;
+}
+</style>
+<div class="contnet-area">                    
+    <div class="form-group"> 
+      <div class="row bottom ">           
+        <div class="col-md-6">  
+          <div class="row">
+          <div class="card-body" style="background-color: #fff">           
+      <form  action="<?php echo base_url('payment/pay_per_unit')?>" method="POST" >                        
+          <label for="purchaseunit">Enter Units/ Per Unit $<span><?php echo $plan_details['unit_price']?></span></label>
+
+          <input type="text" name="purchaseunit" id="purchaseunit" class="form-control" value="1">
+          <input type="hidden" name="baseprice" id="" class="form-control" value="<?php echo $plan_details['base_price']?>">
+          <input type="hidden" name="perunitcost" id="perunitcost" class="form-control" value="<?php echo $plan_details['unit_price']?>">
+          <input type="hidden" name="totalamount" id="totalamount" class="form-control" value="">
+           
+        <span id="previewamount"></span>   
+        <button type="submit">Proceed To Pay</button>                      
+      </form>                           
+        </div>                                
+        </div>                                
+    </div>          
+    </div>          
+    </div>          
+    </div>          
+             
+
+              
+<script type="text/javascript">
+      var purchaseunit = parseInt($('#purchaseunit').val());
+  var perunitcost = parseInt($('#perunitcost').val());
+  var totalamount = purchaseunit*perunitcost;
+  $('#totalamount').val(totalamount);
+  $('#previewamount').text('TO PAY $'+totalamount);
+
+
+  $('#purchaseunit').on('keyup',function(){
+    var purchaseunit = parseInt($('#purchaseunit').val());    
+              var perunitcost = parseInt($('#perunitcost').val());
+var totalamount = purchaseunit*perunitcost;
+//alert(purchaseunit);
+$('#totalamount').val(totalamount);
+if(isNaN(totalamount))
+{
+$('#totalamount').val(perunitcost*1);
+ $('#previewamount').text('TO PAY $'+perunitcost*1);
+}
+else 
+  $('#previewamount').text('TO PAY $'+totalamount);
+  })
+ 
+</script>

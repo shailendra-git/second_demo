@@ -1,0 +1,52 @@
+[25-Mar-2019 15:34:43 Etc/GMT] PHP Notice:  Use of undefined constant version - assumed 'version' in /home/wiseiebj/public_html/sp/controller/facebook/config.php on line 13
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Use of undefined constant GROUPACTIVITYLIKE - assumed 'GROUPACTIVITYLIKE' in /home/wiseiebj/public_html/sp/model/group.php on line 10
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Use of undefined constant GROUPACTIVITYCOMMENT - assumed 'GROUPACTIVITYCOMMENT' in /home/wiseiebj/public_html/sp/model/group.php on line 11
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Use of undefined constant CONTACTS - assumed 'CONTACTS' in /home/wiseiebj/public_html/sp/model/message.php on line 17
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: EMAIL_COOKIE in /home/wiseiebj/public_html/sp/controller/common.php on line 44
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: PASSWORD_COOKIE in /home/wiseiebj/public_html/sp/controller/common.php on line 45
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: stagUserId in /home/wiseiebj/public_html/sp/controller/common.php on line 76
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: stagUserName in /home/wiseiebj/public_html/sp/controller/common.php on line 79
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userDetails in /home/wiseiebj/public_html/sp/controller/common.php on line 97
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 98
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: loginUserDefaultImage in /home/wiseiebj/public_html/sp/controller/common.php on line 99
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 103
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 125
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined offset: 2 in /home/wiseiebj/public_html/sp/model/common/functions.php on line 407
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/wiseiebj/public_html/sp/model/common/functions.php on line 407
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: sportsID in /home/wiseiebj/public_html/sp/controller/common.php on line 127
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: sports_club in /home/wiseiebj/public_html/sp/controller/common.php on line 133
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: clubName in /home/wiseiebj/public_html/sp/model/club.php on line 43
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 142
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: userId in /home/wiseiebj/public_html/sp/controller/common.php on line 148
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfoById in /home/wiseiebj/public_html/sp/controller/common.php on line 168
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfoById in /home/wiseiebj/public_html/sp/controller/common.php on line 170
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 179
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 186
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 192
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfoById in /home/wiseiebj/public_html/sp/controller/common.php on line 199
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userBioInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 203
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: country in /home/wiseiebj/public_html/sp/controller/common.php on line 210
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 224
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 256
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 309
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 331
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 373
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: arrPost in /home/wiseiebj/public_html/sp/controller/common.php on line 565
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 577
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userProfilePhotos in /home/wiseiebj/public_html/sp/controller/common.php on line 603
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 607
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 608
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/wiseiebj/public_html/sp/controller/common.php on line 618
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/wiseiebj/public_html/sp/controller/common.php on line 628
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: suggestionInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 657
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /home/wiseiebj/public_html/sp/controller/common.php on line 657
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 683
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 691
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 698
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 710
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 722
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: userId in /home/wiseiebj/public_html/sp/controller/common.php on line 736
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined variable: userInfo in /home/wiseiebj/public_html/sp/controller/common.php on line 736
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: userType in /home/wiseiebj/public_html/sp/controller/common.php on line 764
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: sex in /home/wiseiebj/public_html/sp/controller/common.php on line 764
+[25-Mar-2019 15:34:44 Etc/GMT] PHP Notice:  Undefined index: id in /home/wiseiebj/public_html/sp/controller/common.php on line 820

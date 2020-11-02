@@ -1,0 +1,215 @@
+* {box-sizing: border-box;}
+body { 
+margin: 0;
+background-color:#efefef !important;
+}
+#navbar {
+overflow: hidden;
+background-color: transparent;
+padding: 19px ;
+transition: 0.4s;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 99;
+}
+#navbar a {
+float: left;
+color: #fff;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px; 
+line-height: 25px;
+border-radius: 4px;
+}
+#navbar #logo {
+font-size: 25px;
+font-weight: bold;
+transition: 0.4s;
+}
+/*#navbar a:hover {
+background-color: #ddd;
+color: black;
+}*/
+#navbar a.active {
+background-color: dodgerblue;
+color: white;
+}
+#navbar-right {
+float: right;
+}
+@media screen and (max-width: 580px) {
+#navbar {
+padding: 20px 10px !important;
+}
+#navbar a {
+float: none;
+display: block;
+text-align: left;
+}
+#navbar-right {
+float: none;
+}
+}
+.form_center
+{
+width: 38%;
+box-shadow: 0px 2px 4px 0px grey;
+margin: auto;
+padding:23px;
+background-color: #fff !important;
+}
+.form_center2
+{
+width: 45%;
+box-shadow: 0px 2px 4px 0px grey;
+margin: auto;
+padding:23px;
+background-color: #fff !important;
+}
+.login
+{
+font-weight: 900;
+margin: 0;
+color: #424242;
+text-transform: uppercase;
+line-height: 2.4em;
+}
+label
+{
+    font-size: 16px;
+    color: #000000;
+}
+.input_border
+{
+border: none !important;
+border-bottom: 1px solid !important;
+border-radius: inherit !important;
+}
+.btn_login
+{
+text-decoration: none;
+color: #fff;
+background-color: #27364f;
+text-align: center;
+border: none;
+border-radius: 2px;
+display: inline-block;
+/* height: 36px; */
+line-height: 36px;
+padding: 0 2rem;
+text-transform: uppercase;
+vertical-align: middle;
+-webkit-tap-highlight-color: transparent;
+font-size: 16px;
+font-weight: 900;
+font-family: "brandon-grotesque",sans-serif;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.btn_login:hover
+{
+text-decoration: none;  
+color: #fff;
+}
+.clr_signuplink
+{
+color: #039be5 !important;
+display: inline-block;
+padding: 0 0.75rem;
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+}
+.clr_signuplink:hover
+{
+color: #039be5 !important;
+text-decoration: none;
+}
+.div_form 
+{
+    margin-top: 100px;
+    padding: 46px 15px;
+    font-size: 30px;
+   /* margin-bottom: 143px;*/
+}
+.footer_back
+{
+background-color: #27364f;
+color: #78909c;
+font-family: 'jaf-bernina-sans-condensed';
+margin-bottom: -1.5rem;
+padding-top: 20px;
+}
+.container_width
+{
+width: 70%;
+margin: 0 auto;
+max-width: 1280px;
+color: #78909c;
+}    
+.footer-links__link
+{
+color: #cfd8dc;
+font-size: 12px;
+font-weight: 900;
+text-decoration: none;
+text-transform: uppercase;
+font-family: 'jaf-bernina-sans-condensed' !important;
+}
+.footer-links__link:hover
+{
+color: #cfd8dc;
+text-decoration: none;
+}
+ul
+{
+list-style-type: none;
+}
+.heading
+{
+font-size: 13px;
+text-transform: uppercase;
+color: #78909c;
+line-height: 1.5;
+font-weight: bold;
+font-family: 'jaf-bernina-sans-condensed'!important;
+}
+.fa-twitter-square 
+{
+font-size: 20px !important;
+}
+.fa-facebook-square
+{
+font-size: 20px !important;
+}
+.fa-linkedin-square
+{
+font-size: 20px !important;
+}
+.footer_p_clr
+{
+font-size: 0.8rem;
+font-family: 'lato', sans-serif;
+color: rgba(255,255,255,0.5);
+}
+.fa-home
+{
+font-size: 100px !important;
+margin-top: 40px;
+}
+.footer_last
+{
+padding: 20px;
+}
+.p_m_bottom
+{
+margin-bottom: 0px !important;
+}
+.font_p
+{
+font-size: 16px !important;
+margin-top: 30px;
+}
+
+
